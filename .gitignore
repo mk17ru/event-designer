@@ -1,0 +1,37 @@
+HELP.md
+.gradle
+build/
+!backend/gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Local Properties and configs ###
+/src/main/resources/application-local.properties
+/src/main/resources/application-local-test.properties
+/src/main/resources/tokens/
+/src/main/resources/google/
+
+### Special for Mac ###
+.DS_Store
+/src/main/resources/db_copy/
